@@ -1,18 +1,22 @@
 export const MaincaroselData = [
     {
-        image:"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/category/catban-820250408183910.jpg?format=webp&w=1500&dpr=1.3",
+        image:"https://www.redwolf.in/image/cache/catalog/banners/official-merch/avengers-merchandise-india-1920-1920x350.jpg?m=1687857379",
         path:""
     },
     {
-        image:"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/category/catban-820250421142226.jpg?format=webp&w=1500&dpr=1.3",
+        image:"https://www.redwolf.in/image/cache/catalog/banners/official-merch/marvel-new-category-banner-1920-1920x350.jpg?m=1687857130",
         path:""
     },
     {
-        image:"https://prod-img.thesouledstore.com/public/theSoul/uploads/themes/6086820250421130606.jpg?format=webp&w=1500&dpr=1.3",
+        image:"https://www.redwolf.in/image/cache/catalog/banners/official-merch/iron-man-official-merchandise-1920-1920x350.jpg?m=1687857427",
         path:""
     },
     {
-        image:"https://prod-img.thesouledstore.com/public/theSoul/uploads/themes/1870920250416171101.jpg?format=webp&w=1500&dpr=1.3",
+        image:"https://www.redwolf.in/image/cache/catalog/banners/product-categories/superhero-tshirts-category-banner-1920-1920x350.jpg?m=1687857219",
+        path:""
+    },
+    {
+        image:"https://www.redwolf.in/image/cache/catalog/banners/official-merch/Horror-Tees-Category-Banner-1920-1920x350.jpg?m=1687857862",
         path:""
     },
 ]

@@ -5,6 +5,7 @@ import './App.css'
 import Navigation from './customer/components/Navigation/Navigation'
 import Homepage from './customer/Pages/Homepage/Homepage'
 import Footer from './customer/components/Footer/Footer'
+import Product from './customer/components/Product/Product'
 function App() {
 
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       <Navigation/>
     </div>
     <div>
-      <Homepage/>
+      {/* <Homepage/> */}
+      <Product/>
     </div>
     <Footer/>
     </>

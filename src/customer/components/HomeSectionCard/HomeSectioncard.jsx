@@ -15,7 +15,7 @@ function HomeSectioncard({Product}) {
       </div>
 
       <div>
-        <h1 className="text-lg font-medium text-gray-9000">{Product.title}</h1>
+        <h1 className="text-lg font-medium text-gray-9000 text-black">{Product.title}</h1>
         <p className="mt-2 text-sm text-green-500 ">{Product.brand}</p>
       </div>
     </div>
