@@ -10,6 +10,7 @@ import ProductDetails from './customer/components/ProductDetails/ProductDetails'
 import Cart from './customer/components/Cart/Cart'
 import CheckOut from './customer/components/CheckOut/CheckOut'
 import Order from './customer/components/Order/Order'
+import OrderDetails from './customer/components/Order/OrderDetails'
 function App() {
 
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
       {/* <ProductDetails/> */}
       {/* <Cart/> */}
       {/* <CheckOut/> */}
-      <Order/>
+      {/* <Order/> */}
+      <OrderDetails/>
     </div>
     <Footer/>
     </>
