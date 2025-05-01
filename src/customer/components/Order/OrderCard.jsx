@@ -1,10 +1,14 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import AdjustOutlinedIcon from "@mui/icons-material/AdjustOutlined";
+import { useNavigate } from "react-router-dom";
 
 function OrderCard() {
+  const navigate =  useNavigate();
+
   return (
-    <div className="p-5 shadow-md hover:shadow-2xl ">
+    <div onClick={()=>navigate(`/account/order/${5}`)} 
+    className="p-5 shadow-md hover:shadow-2xl ">
       <Grid
         container
         spacing={2}

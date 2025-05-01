@@ -6,7 +6,8 @@ import Button from "@mui/material/Button";
 import ProductReviewCard from "./ProductReviewCard";
 import LinearProgress from '@mui/material/LinearProgress';
 import { Mens_Kurta } from "../../Data/Mens_Kurta";
-import HomeSectioncard from "../HomeSectionCard/HomeSectioncard";
+import HomeSectioncard from "../HomeSectionCard/homeSectioncard";
+import { useNavigate } from "react-router-dom";
 
 
 const product = {
@@ -66,6 +67,12 @@ function classNames(...classes) {
 export default function ProductDetails() {
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
+  const navigate = useNavigate();
+
+  const handleaddtoCart=()=>{
+    navigate('/cart')
+
+  }
 
   return (
     <div className="bg-white lg:px-20">
@@ -221,6 +228,8 @@ export default function ProductDetails() {
                   </fieldset>
                 </div>
                 <Button
+                 onClick={handleaddtoCart}
+                  type="submit"
                   variant="contained"
                   sx={{ px: "2rem", py: "1rem", bgcolor: "#9155fd" }}
                 >

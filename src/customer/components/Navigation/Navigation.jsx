@@ -409,10 +409,9 @@ export default function Navigation() {
                           "aria-labelledby": "basic-button",
                         }}
                       >
-                        <MenuItem>
-                          {true?.role === "ROLE_ADMIN"
-                            ? "Admin Dashboard"
-                            : "My Orders"}
+                        <MenuItem>Profile</MenuItem>
+                        <MenuItem onClick={()=>navigate('/account/order')}>
+                        My Orders
                         </MenuItem>
                         <MenuItem>Logout</MenuItem>
                       </Menu>
