@@ -47,7 +47,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="bg-white pb-10 Marvel">
+    <div className="bg-white pb-10 Marvel ">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
@@ -252,7 +252,7 @@ export default function Navigation() {
                               className={classNames(
                                 open
                                   ? "border-indigo-600 text-indigo-600"
-                                  : "border-transparent text-gray-700 hover:text-gray-800",
+                                  : "border-transparent text-white-700 hover:text-white-1000 font-bold",
                                 "relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out"
                               )}
                             >

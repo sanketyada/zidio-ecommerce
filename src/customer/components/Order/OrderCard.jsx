@@ -8,15 +8,15 @@ function OrderCard() {
 
   return (
     <div onClick={()=>navigate(`/account/order/${5}`)} 
-    className="p-5 shadow-md hover:shadow-2xl ">
+    className="p-5 shadow-md hover:shadow-amber-50">
       <Grid
         container
         spacing={2}
         sx={{ justifyContent: "space-between" }}
         className=""
       >
-        <Grid item xs={6}>
-          <div className="flex cursor-pointer">
+        <Grid item xs={6} sx={{  }}>
+          <div className="flex cursor-pointer ">
             <img
               className="w-[5rem] h-[5rem] object-cover object-top"
               src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

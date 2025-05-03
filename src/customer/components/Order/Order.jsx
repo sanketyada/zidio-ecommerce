@@ -11,13 +11,13 @@ const orderStatus = [
 
 function Order() {
   return (
-    <div className="px-5 lg:px-20 ">
+    <div className="px-5 lg:px-20  ">
       <Grid container spacing={2} justifyContent="space-between">
         <Grid item size={{ xs: 12,  md: 3 }} >
-          <div className="h-auto shadow-lg bg-white p-5 sticky top-5">
-            <h1 className="font-bold text-lg">Filter</h1>
+          <div className="h-auto shadow-lg p-5 sticky top-5" style={{ backgroundColor: '#0f172a',boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.5)' }}>
+            <h1 className="font-bold text-lg text-green-700">Filter</h1>
             <div className="space-y-4 mt-10">
-              <h1 className="font-semibold">Order Status</h1>
+              <h1 className="font-semibold text-green-700">Order Status</h1>
               {orderStatus.map((option) => (
                 <div key={option.value} className="flex items-center">
                   <input
